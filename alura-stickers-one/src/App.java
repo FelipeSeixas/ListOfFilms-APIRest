@@ -30,9 +30,9 @@ public class App {
 
         // Exibir os dados filtrados
         for(Map<String,String> filme : listaFilmes){
-            System.out.println(filme.get("title"));
+            System.out.println("Título: " + filme.get("title"));
             System.out.println(filme.get("image"));
-            System.out.println(filme.get("imDbRating"));
+            System.out.println("Classificação: " + filme.get("imDbRating"));
             System.out.println();
         }
     }
